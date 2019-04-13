@@ -1,0 +1,57 @@
+{
+	"Races": [
+		{
+			"round": "1",
+			"url": "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix",
+			"raceName": "Australian Grand Prix",
+			"race": {
+				"date": "2019-03-17",
+				"time": "05:10:00Z"
+			},
+			"quali": {
+				"date": "2019-03-16",
+				"time": "06:00:00Z"
+			}
+		},
+		{
+			"round": "2",
+			"url": "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix",
+			"raceName": "Bahrain Grand Prix",
+			"race": {
+				"date": "2019-03-31",
+				"time": "15:10:00Z"
+			},
+			"quali": {
+				"date": "2019-03-30",
+				"time": "14:00:00Z"
+			}
+		},
+		{
+			"round": "3",
+			"url": "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix",
+			"raceName": "Chinese Grand Prix",
+			"race": {
+				"date": "2019-04-14",
+				"time": "06:10:00Z"
+			},
+			"quali": {
+				"date": "2019-04-13",
+				"time": "06:00:00Z"
+			}
+		},
+		{
+			"season": "2019",
+			"round": "4",
+			"url": "https://en.wikipedia.org/wiki/2019_Azerbaijan_Grand_Prix",
+			"raceName": "Azerbaijan Grand Prix",
+			"race": {
+				"date": "2019-04-28",
+				"time": "12:10:00Z"
+			},
+			"quali": {
+				"date": "2019-04-27",
+				"time": "13:00:00Z"
+			}
+		}
+	]
+}
