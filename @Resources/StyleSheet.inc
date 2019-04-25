@@ -43,8 +43,8 @@ ImageTint=255,255,255,15
 SolidColor=255,255,255,1
 W=12
 H=13
-X=190
-Y=35
+X=22
+Y=62
 
 [StylePrev]
 ImageName=#@#\Images\arrow-left.png
@@ -52,8 +52,8 @@ ImageTint=255,255,255,15
 SolidColor=255,255,255,1
 W=12
 H=13
-X=180
-Y=35
+X=10
+Y=62
 
 [StyleHeadings]
 StringAlign=Right
