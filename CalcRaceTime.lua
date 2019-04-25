@@ -1,11 +1,18 @@
 function Initialize()
 
     msIsDST = SKIN:GetMeasure('MeasureIsDST')
+
     msRaceYear = SKIN:GetMeasure('MeasureRaceYear')
     msRaceMonth = SKIN:GetMeasure('MeasureRaceMonth')
     msRaceDay = SKIN:GetMeasure('MeasureRaceDay')
     msRaceHour = SKIN:GetMeasure('MeasureRaceHour')
     msRaceMinute = SKIN:GetMeasure('MeasureRaceMinute')
+
+    msQualiYear = SKIN:GetMeasure('MeasureQualiYear')
+    msQualiMonth = SKIN:GetMeasure('MeasureQualiMonth')
+    msQualiDay = SKIN:GetMeasure('MeasureQualiDay')
+    msQualiHour = SKIN:GetMeasure('MeasureQualiHour')
+    msQualiMinute = SKIN:GetMeasure('MeasureQualiMinute')
   
 end 
 
@@ -25,14 +32,27 @@ function Update()
     raceHour = msRaceHour:GetValue()
     raceMinute = msRaceMinute:GetValue()
 
-    formatedTime = converTime(raceYear, raceMonth, raceDay, raceHour, raceMinute, isDST)
+    qualiYear = msQualiYear:GetValue()
+    qualiMonth = msQualiMonth:GetValue()
+    qualiDay = msQualiDay:GetValue()
+    qualiHour = msQualiHour:GetValue()
+    qualiMinute = msQualiMinute:GetValue()
+
+    formatedRaceTime = convertTime(raceYear, raceMonth, raceDay, raceHour, raceMinute, isDST, true)
+
+    formatedQualiTime = convertTime(qualiYear, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
     
-    return(formatedTime)
+    print(formatedRaceTime)
+    print(formatedQualiTime)
+
+    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime
+
+    return formatedTime
    
 
 end
 
-converTime = function(year, month, day, hour, minute, isDST)
+convertTime = function(year, month, day, hour, minute, isDST, isRace)
     timeStamp = os.time({year=year, month=month, day=day, hour=hour, minute=minute, isdst=isDST})
     
     currentLocalTime = os.time()
@@ -40,7 +60,14 @@ converTime = function(year, month, day, hour, minute, isDST)
     
     timeOffset = currentLocalTime - currentUTCTime
 
-    adjustedTimeStamp = timeStamp + timeOffset + 600
+    adjustedTimeStamp = 0
+
+    if (isRace)
+    then
+        adjustedTimeStamp = timeStamp + timeOffset + 600
+    else
+        adjustedTimeStamp = timeStamp + timeOffset
+    end
 
     formatedTime = os.date('%a, %b %d %H:%M', adjustedTimeStamp)
 
