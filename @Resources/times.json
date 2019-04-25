@@ -40,7 +40,6 @@
 			}
 		},
 		{
-			"season": "2019",
 			"round": "4",
 			"url": "https://en.wikipedia.org/wiki/2019_Azerbaijan_Grand_Prix",
 			"raceName": "Azerbaijan Grand Prix",
@@ -50,6 +49,227 @@
 			},
 			"quali": {
 				"date": "2019-04-27",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "5",
+			"url": "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix",
+			"raceName": "Spanish Grand Prix",
+			"race": {
+				"date": "2019-05-12",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-05-11",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "6",
+			"url": "https://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix",
+			"raceName": "Monaco Grand Prix",
+			"race": {
+				"date": "2019-05-26",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-05-25",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "7",
+			"url": "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix",
+			"raceName": "Canadian Grand Prix",
+			"race": {
+				"date": "2019-06-09",
+				"time": "18:10:00Z"
+			},
+			"quali": {
+				"date": "2019-06-08",
+				"time": "18:00:00Z"
+			}
+		},
+		{
+			"round": "8",
+			"url": "https://en.wikipedia.org/wiki/2019_French_Grand_Prix",
+			"raceName": "French Grand Prix",
+			"race": {
+				"date": "2019-06-23",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-06-22",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "9",
+			"url": "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix",
+			"raceName": "Austrian Grand Prix",
+			"race": {
+				"date": "2019-06-30",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-06-29",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "10",
+			"url": "https://en.wikipedia.org/wiki/2019_British_Grand_Prix",
+			"raceName": "British Grand Prix",
+			"race": {
+				"date": "2019-07-14",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-07-13",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "11",
+			"url": "https://en.wikipedia.org/wiki/2019_German_Grand_Prix",
+			"raceName": "German Grand Prix",
+			"race": {
+				"date": "2019-07-28",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-07-27",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "12",
+			"url": "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix",
+			"raceName": "Hungarian Grand Prix",
+			"race": {
+				"date": "2019-08-04",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-08-03",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "13",
+			"url": "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix",
+			"raceName": "Belgian Grand Prix",
+			"race": {
+				"date": "2019-09-01",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-08-31",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "14",
+			"url": "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix",
+			"raceName": "Italian Grand Prix",
+			"race": {
+				"date": "2019-09-08",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-09-07",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "15",
+			"url": "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix",
+			"raceName": "Singapore Grand Prix",
+			"race": {
+				"date": "2019-09-22",
+				"time": "12:10:00Z"
+			},
+			"quali": {
+				"date": "2019-09-21",
+				"time": "13:00:00Z"
+			}
+		},
+		{
+			"round": "16",
+			"url": "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix",
+			"raceName": "Russian Grand Prix",
+			"race": {
+				"date": "2019-09-29",
+				"time": "11:10:00Z"
+			},
+			"quali": {
+				"date": "2019-09-28",
+				"time": "12:00:00Z"
+			}
+		},
+		{
+			"round": "17",
+			"url": "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix",
+			"raceName": "Japanese Grand Prix",
+			"race": {
+				"date": "2019-10-13",
+				"time": "05:10:00Z"
+			},
+			"quali": {
+				"date": "2019-10-12",
+				"time": "06:00:00Z"
+			}
+		},
+		{
+			"round": "18",
+			"url": "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix",
+			"raceName": "Mexican Grand Prix",
+			"race": {
+				"date": "2019-10-27",
+				"time": "19:10:00Z"
+			},
+			"quali": {
+				"date": "2019-10-26",
+				"time": "18:00:00Z"
+			}
+		},
+		{
+			"round": "19",
+			"url": "https://en.wikipedia.org/wiki/2019_United_States_Grand_Prix",
+			"raceName": "United States Grand Prix",
+			"race": {
+				"date": "2019-11-03",
+				"time": "19:10:00Z"
+			},
+			"quali": {
+				"date": "2019-11-02",
+				"time": "22:00:00Z"
+			}
+		},
+		{
+			"round": "20",
+			"url": "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix",
+			"raceName": "Brazilian Grand Prix",
+			"race": {
+				"date": "2019-11-17",
+				"time": "17:10:00Z"
+			},
+			"quali": {
+				"date": "2019-11-16",
+				"time": "17:00:00Z"
+			}
+		},
+		{
+			"round": "21",
+			"url": "https://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix",
+			"raceName": "Abu Dhabi Grand Prix",
+			"race": {
+				"date": "2019-12-01",
+				"time": "13:10:00Z"
+			},
+			"quali": {
+				"date": "2019-11-30",
 				"time": "13:00:00Z"
 			}
 		}
