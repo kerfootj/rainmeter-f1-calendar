@@ -44,7 +44,7 @@ SolidColor=255,255,255,1
 W=12
 H=13
 X=22
-Y=62
+Y=61
 
 [StylePrev]
 ImageName=#@#\Images\arrow-left.png
@@ -53,7 +53,7 @@ SolidColor=255,255,255,1
 W=12
 H=13
 X=10
-Y=62
+Y=61
 
 [StyleHeadings]
 StringAlign=Right
