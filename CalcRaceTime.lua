@@ -2,17 +2,21 @@ function Initialize()
 
     msIsDST = SKIN:GetMeasure('MeasureIsDST')
 
-    msRaceYear = SKIN:GetMeasure('MeasureRaceYear')
+    msYear = SKIN:GetMeasure('MeasureRaceYear')
     msRaceMonth = SKIN:GetMeasure('MeasureRaceMonth')
     msRaceDay = SKIN:GetMeasure('MeasureRaceDay')
     msRaceHour = SKIN:GetMeasure('MeasureRaceHour')
     msRaceMinute = SKIN:GetMeasure('MeasureRaceMinute')
 
-    msQualiYear = SKIN:GetMeasure('MeasureQualiYear')
     msQualiMonth = SKIN:GetMeasure('MeasureQualiMonth')
     msQualiDay = SKIN:GetMeasure('MeasureQualiDay')
     msQualiHour = SKIN:GetMeasure('MeasureQualiHour')
     msQualiMinute = SKIN:GetMeasure('MeasureQualiMinute')
+
+    msFP3Month = SKIN:GetMeasure('MeasureFP3Month')
+    msFP3Day = SKIN:GetMeasure('MeasureFP3Day')
+    msFP3Hour = SKIN:GetMeasure('MeasureFP3Hour')
+    msFP3Minute = SKIN:GetMeasure('MeasureFP3Minute')
   
 end 
 
@@ -28,23 +32,27 @@ function Update()
         isDST = true
     end
 
-    raceYear = msRaceYear:GetValue()
+    year = msYear:GetValue()
     raceMonth = msRaceMonth:GetValue()
     raceDay = msRaceDay:GetValue()
     raceHour = msRaceHour:GetValue()
     raceMinute = msRaceMinute:GetValue()
 
-    qualiYear = msQualiYear:GetValue()
     qualiMonth = msQualiMonth:GetValue()
     qualiDay = msQualiDay:GetValue()
     qualiHour = msQualiHour:GetValue()
     qualiMinute = msQualiMinute:GetValue()
 
-    formatedRaceTime = convertTime(raceYear, raceMonth, raceDay, raceHour, raceMinute, isDST, true)
+    fp3Month = msFP3Month:GetValue()
+    fp3Day = msFP3Day:GetValue()
+    fp3Hour = msFP3Hour:GetValue()
+    fp3Minute = msFP3Minute:GetValue()
 
-    formatedQualiTime = convertTime(qualiYear, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
+    formatedRaceTime = convertTime(year, raceMonth, raceDay, raceHour, raceMinute, isDST, true)
+    formatedQualiTime = convertTime(year, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
+    formatedFP3Time = convertTime(year, fp3Month, fp3Day, fp3Hour, fp3Minute, false)
     
-    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n--\n--\n--"
+    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n" .. formatedFP3Time .. "\n--\n--"
    
     print(formatedRaceTime)
     print(formatedQualiTime)
