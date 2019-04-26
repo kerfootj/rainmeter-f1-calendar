@@ -18,6 +18,8 @@ end
 
 function Update()
 
+    SKIN:Bang('!SetOption', 'MeterTimes', 'Text', '--\n--\n--\n--\n--' )
+
     isDSTNum = msIsDST:GetValue() 
     isDST = false
 
@@ -42,14 +44,16 @@ function Update()
 
     formatedQualiTime = convertTime(qualiYear, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
     
+    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n--\n--\n--"
+   
     print(formatedRaceTime)
     print(formatedQualiTime)
 
-    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime
+    SKIN:Bang('!SetOption', 'MeterTimes', 'Text', formatedTime )
+    SKIN:Bang('!DisableMeasureGroup', 'times')
 
-    return formatedTime
+    return 0
    
-
 end
 
 convertTime = function(year, month, day, hour, minute, isDST, isRace)
