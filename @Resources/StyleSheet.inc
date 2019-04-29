@@ -103,4 +103,4 @@ SolidColor=15,15,15,120
 ImageTint=50,50,50
 Padding=5,5,5,5
 W=200
-H=300
+H=150
