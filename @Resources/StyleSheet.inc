@@ -1,3 +1,9 @@
+[StyleIcon]
+ImageName=#@#\Images\f1.png
+PreserveAspectRatio=1
+W=50
+Y=10
+
 [StyleBackground]
 ImageName=#@#\Images\border.png
 ScaleMargins=2,2,2,2
@@ -11,8 +17,17 @@ H=152
 ImageName=#@#\Images\f1.png
 PreserveAspectRatio=1
 W=35
-Y=10
+Y=12
 X=10
+
+[StyleMinimize]
+ImageName=#@#\Images\minimize.png
+PreserveAspectRatio=1
+ImageTint=255,255,255,15
+SolidColor=255,255,255,1
+W=20
+Y=12
+X=(#width# - 20)
 
 [StyleText]
 AntiAlias=1
@@ -24,12 +39,12 @@ ClipString=1
 [StyleTitle]
 StringAlign=Center
 X=(#width# / 2)
-Y=5
+Y=7
 
 [StyleSeperator]
 SolidColor=255,255,255,25
 X=#padding#
-W=(#width# - (#padding# * 2))
+W=(#width# - #padding#)
 H=1
 
 [StyleNextRace]
