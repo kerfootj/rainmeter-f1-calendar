@@ -17,6 +17,17 @@ function Initialize()
     msFP3Day = SKIN:GetMeasure('MeasureFP3Day')
     msFP3Hour = SKIN:GetMeasure('MeasureFP3Hour')
     msFP3Minute = SKIN:GetMeasure('MeasureFP3Minute')
+
+    msFP2Month = SKIN:GetMeasure('MeasureFP2Month')
+    msFP2Day = SKIN:GetMeasure('MeasureFP2Day')
+    msFP2Hour = SKIN:GetMeasure('MeasureFP2Hour')
+    msFP2Minute = SKIN:GetMeasure('MeasureFP2Minute')
+
+    msFP1Month = SKIN:GetMeasure('MeasureFP1Month')
+    msFP1Day = SKIN:GetMeasure('MeasureFP1Day')
+    msFP1Hour = SKIN:GetMeasure('MeasureFP1Hour')
+    msFP1Minute = SKIN:GetMeasure('MeasureFP1Minute')
+    
   
 end 
 
@@ -48,15 +59,23 @@ function Update()
     fp3Hour = msFP3Hour:GetValue()
     fp3Minute = msFP3Minute:GetValue()
 
+    fp2Month = msFP2Month:GetValue()
+    fp2Day = msFP2Day:GetValue()
+    fp2Hour = msFP2Hour:GetValue()
+    fp2Minute = msFP2Minute:GetValue()
+
+    fp1Month = msFP1Month:GetValue()
+    fp1Day = msFP1Day:GetValue()
+    fp1Hour = msFP1Hour:GetValue()
+    fp1Minute = msFP1Minute:GetValue()
+
     formatedRaceTime = convertTime(year, raceMonth, raceDay, raceHour, raceMinute, isDST, true)
     formatedQualiTime = convertTime(year, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
     formatedFP3Time = convertTime(year, fp3Month, fp3Day, fp3Hour, fp3Minute, false)
-    
-    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n" .. formatedFP3Time .. "\n--\n--"
+    formatedFP2Time = convertTime(year, fp2Month, fp2Day, fp2Hour, fp2Minute, false)
+    formatedFP1Time = convertTime(year, fp1Month, fp1Day, fp1Hour, fp1Minute, false)
+    formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n" .. formatedFP3Time .. "\n" .. formatedFP2Time .. "\n" .. formatedFP1Time
    
-    print(formatedRaceTime)
-    print(formatedQualiTime)
-
     SKIN:Bang('!SetOption', 'MeterTimes', 'Text', formatedTime )
     SKIN:Bang('!DisableMeasureGroup', 'times')
 
