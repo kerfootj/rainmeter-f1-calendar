@@ -3,7 +3,6 @@
 [StyleIcon]
 ImageName=#@#\Images\f1.png
 PreserveAspectRatio=1
-Y=10
 
 [StyleBackground]
 ImageName=#@#\Images\border.png
@@ -105,13 +104,3 @@ ImageTint=50,50,50
 Padding=5,5,5,5
 W=200
 H=300
-
-[StyleMinimizeDirection]
-Y=10
-X=10
-
-[StyleMinimizeBoxes]
-Y=20
-X=180
-Padding=5,5,5,5
-AntiAlias=1
