@@ -44,6 +44,12 @@ function Update()
     end
 
     year = msYear:GetValue()
+
+    if (year == 0)
+    then
+        do return end
+    end
+
     raceMonth = msRaceMonth:GetValue()
     raceDay = msRaceDay:GetValue()
     raceHour = msRaceHour:GetValue()
@@ -70,16 +76,17 @@ function Update()
     fp1Minute = msFP1Minute:GetValue()
 
     formatedRaceTime = convertTime(year, raceMonth, raceDay, raceHour, raceMinute, isDST, true)
-    formatedQualiTime = convertTime(year, qualiMonth, qualiDay, qualiHour, qualiMinute, false)
-    formatedFP3Time = convertTime(year, fp3Month, fp3Day, fp3Hour, fp3Minute, false)
-    formatedFP2Time = convertTime(year, fp2Month, fp2Day, fp2Hour, fp2Minute, false)
-    formatedFP1Time = convertTime(year, fp1Month, fp1Day, fp1Hour, fp1Minute, false)
+    formatedQualiTime = convertTime(year, qualiMonth, qualiDay, qualiHour, qualiMinute, isDST, false)
+    formatedFP3Time = convertTime(year, fp3Month, fp3Day, fp3Hour, fp3Minute, isDST, false)
+    formatedFP2Time = convertTime(year, fp2Month, fp2Day, fp2Hour, fp2Minute, isDST, false)
+    formatedFP1Time = convertTime(year, fp1Month, fp1Day, fp1Hour, fp1Minute, isDST, false)
+
     formatedTime = formatedRaceTime .. "\n" .. formatedQualiTime .. "\n" .. formatedFP3Time .. "\n" .. formatedFP2Time .. "\n" .. formatedFP1Time
    
     SKIN:Bang('!SetOption', 'MeterTimes', 'Text', formatedTime )
     SKIN:Bang('!DisableMeasureGroup', 'times')
 
-    return 0
+    return
    
 end
 
