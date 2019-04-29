@@ -1,7 +1,6 @@
 [StyleIcon]
 ImageName=#@#\Images\f1.png
 PreserveAspectRatio=1
-W=50
 Y=10
 
 [StyleBackground]
