@@ -1,3 +1,5 @@
+; Calendar Styles
+
 [StyleIcon]
 ImageName=#@#\Images\f1.png
 PreserveAspectRatio=1
@@ -27,6 +29,16 @@ SolidColor=255,255,255,1
 W=20
 Y=12
 X=(#width# - 20)
+
+[StyleSettings]
+ImageName=#@#\Images\settings.png
+PreserveAspectRatio=1
+ImageTint=255,255,255,15
+SolidColor=255,255,255,1
+W=12
+Y=11
+X=(#width# - 35)
+
 
 [StyleText]
 AntiAlias=1
@@ -82,3 +94,24 @@ Y=58
 StringAlign=Right
 X=(#width# - #padding#)
 Y=58
+
+; Settings Styles
+
+[StyleBackgroundSettings]
+ImageName=#@#\Images\border.png
+ScaleMargins=2,2,2,2
+SolidColor=15,15,15,120
+ImageTint=50,50,50
+Padding=5,5,5,5
+W=200
+H=300
+
+[StyleMinimizeDirection]
+Y=10
+X=10
+
+[StyleMinimizeBoxes]
+Y=20
+X=180
+Padding=5,5,5,5
+AntiAlias=1
