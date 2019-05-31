@@ -1,3 +1,3 @@
 [Variables]
 MinDirX=260
-MinDirY=145
+MinDirY=10
