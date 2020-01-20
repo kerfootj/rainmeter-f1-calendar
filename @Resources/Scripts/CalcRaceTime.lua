@@ -36,11 +36,11 @@ function Update()
     SKIN:Bang('!SetOption', 'MeterTimes', 'Text', '--\n--\n--\n--\n--' )
 
     isDSTNum = msIsDST:GetValue() 
-    isDST = false
+    isDST = true
 
     if (isDSTNum == 0)
     then
-        isDST = true
+        isDST = false
     end
 
     year = msYear:GetValue()

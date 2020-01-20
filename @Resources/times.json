@@ -1,485 +1,200 @@
-{
-	"Races": [
-		{
-			"round": "1",
-			"url": "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix",
-			"raceName": "Australian Grand Prix",
-			"race": {
-				"date": "2019-03-17",
-				"time": "05:10:00Z"
-			},
-			"quali": {
-				"date": "2019-03-16",
-				"time": "06:00:00Z"
-			}
-		},
-		{
-			"round": "2",
-			"url": "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix",
-			"raceName": "Bahrain Grand Prix",
-			"race": {
-				"date": "2019-03-31",
-				"time": "15:10:00Z"
-			},
-			"quali": {
-				"date": "2019-03-30",
-				"time": "14:00:00Z"
-			}
-		},
-		{
-			"round": "3",
-			"url": "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix",
-			"raceName": "Chinese Grand Prix",
-			"race": {
-				"date": "2019-04-14",
-				"time": "06:10:00Z"
-			},
-			"quali": {
-				"date": "2019-04-13",
-				"time": "06:00:00Z"
-			}
-		},
-		{
-			"round": "4",
-			"url": "https://en.wikipedia.org/wiki/2019_Azerbaijan_Grand_Prix",
-			"raceName": "Azerbaijan Grand Prix",
-			"race": {
-				"date": "2019-04-28",
-				"time": "12:10:00Z"
-			},
-			"quali": {
-				"date": "2019-04-27",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-04-27",
-				"time": "10:00:00Z"
-			}
-		},
-		{
-			"round": "5",
-			"url": "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix",
-			"raceName": "Spanish Grand Prix",
-			"race": {
-				"date": "2019-05-12",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-05-11",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-05-11",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-05-10",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-05-10",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "6",
-			"url": "https://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix",
-			"raceName": "Monaco Grand Prix",
-			"race": {
-				"date": "2019-05-26",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-05-25",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-05-25",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-05-23",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-05-23",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "7",
-			"url": "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix",
-			"raceName": "Canadian Grand Prix",
-			"race": {
-				"date": "2019-06-09",
-				"time": "18:10:00Z"
-			},
-			"quali": {
-				"date": "2019-06-08",
-				"time": "18:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-06-08",
-				"time": "15:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-06-07",
-				"time": "18:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-06-07",
-				"time": "14:00:00Z"
-			}
-		},
-		{
-			"round": "8",
-			"url": "https://en.wikipedia.org/wiki/2019_French_Grand_Prix",
-			"raceName": "French Grand Prix",
-			"race": {
-				"date": "2019-06-23",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-06-22",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-06-22",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-06-21",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-06-21",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "9",
-			"url": "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix",
-			"raceName": "Austrian Grand Prix",
-			"race": {
-				"date": "2019-06-30",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-06-29",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-06-29",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-06-28",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-06-28",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "10",
-			"url": "https://en.wikipedia.org/wiki/2019_British_Grand_Prix",
-			"raceName": "British Grand Prix",
-			"race": {
-				"date": "2019-07-14",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-07-13",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-07-13",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-07-12",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-07-12",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "11",
-			"url": "https://en.wikipedia.org/wiki/2019_German_Grand_Prix",
-			"raceName": "German Grand Prix",
-			"race": {
-				"date": "2019-07-28",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-07-27",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-07-27",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-07-26",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-07-26",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "12",
-			"url": "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix",
-			"raceName": "Hungarian Grand Prix",
-			"race": {
-				"date": "2019-08-04",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-08-03",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-08-03",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-08-02",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-08-02",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "13",
-			"url": "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix",
-			"raceName": "Belgian Grand Prix",
-			"race": {
-				"date": "2019-09-01",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-08-31",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-08-31",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-08-30",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-08-30",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "14",
-			"url": "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix",
-			"raceName": "Italian Grand Prix",
-			"race": {
-				"date": "2019-09-08",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-09-07",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-09-07",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-09-06",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-09-06",
-				"time": "09:00:00Z"
-			}
-		},
-		{
-			"round": "15",
-			"url": "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix",
-			"raceName": "Singapore Grand Prix",
-			"race": {
-				"date": "2019-09-22",
-				"time": "12:10:00Z"
-			},
-			"quali": {
-				"date": "2019-09-21",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-08-21",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-08-20",
-				"time": "12:30:00Z"
-			},
-			"fp1": {
-				"date": "2019-08-20",
-				"time": "08:30:00Z"
-			}
-		},
-		{
-			"round": "16",
-			"url": "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix",
-			"raceName": "Russian Grand Prix",
-			"race": {
-				"date": "2019-09-29",
-				"time": "11:10:00Z"
-			},
-			"quali": {
-				"date": "2019-09-28",
-				"time": "12:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-09-28",
-				"time": "09:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-09-27",
-				"time": "12:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-09-27",
-				"time": "08:00:00Z"
-			}
-		},
-		{
-			"round": "17",
-			"url": "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix",
-			"raceName": "Japanese Grand Prix",
-			"race": {
-				"date": "2019-10-13",
-				"time": "05:10:00Z"
-			},
-			"quali": {
-				"date": "2019-10-12",
-				"time": "06:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-10-12",
-				"time": "03:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-10-11",
-				"time": "05:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-10-11",
-				"time": "01:00:00Z"
-			}
-		},
-		{
-			"round": "18",
-			"url": "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix",
-			"raceName": "Mexican Grand Prix",
-			"race": {
-				"date": "2019-10-27",
-				"time": "19:10:00Z"
-			},
-			"quali": {
-				"date": "2019-10-26",
-				"time": "18:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-10-26",
-				"time": "15:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-10-25",
-				"time": "19:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-10-25",
-				"time": "15:00:00Z"
-			}
-		},
-		{
-			"round": "19",
-			"url": "https://en.wikipedia.org/wiki/2019_United_States_Grand_Prix",
-			"raceName": "United States Grand Prix",
-			"race": {
-				"date": "2019-11-03",
-				"time": "19:10:00Z"
-			},
-			"quali": {
-				"date": "2019-11-02",
-				"time": "21:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-11-02",
-				"time": "18:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-11-01",
-				"time": "20:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-11-01",
-				"time": "16:00:00Z"
-			}
-		},
-		{
-			"round": "20",
-			"url": "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix",
-			"raceName": "Brazilian Grand Prix",
-			"race": {
-				"date": "2019-11-17",
-				"time": "18:10:00Z"
-			},
-			"quali": {
-				"date": "2019-11-16",
-				"time": "18:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-11-16",
-				"time": "15:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-11-15",
-				"time": "18:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-11-15",
-				"time": "14:00:00Z"
-			}
-		},
-		{
-			"round": "21",
-			"url": "https://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix",
-			"raceName": "Abu Dhabi Grand Prix",
-			"race": {
-				"date": "2019-12-01",
-				"time": "13:10:00Z"
-			},
-			"quali": {
-				"date": "2019-11-30",
-				"time": "13:00:00Z"
-			},
-			"fp3": {
-				"date": "2019-11-30",
-				"time": "10:00:00Z"
-			},
-			"fp2": {
-				"date": "2019-11-29",
-				"time": "13:00:00Z"
-			},
-			"fp1": {
-				"date": "2019-11-29",
-				"time": "09:00:00Z"
-			}
-		}
-	]
-}
+[
+	{
+		"_round": "1",
+		"name": "Australian Grand Prix",
+		"race": { "date": "2020-03-15", "time": "05:10:00Z" },
+		"quali": { "date": "2020-03-14", "time": "06:00:00Z" },
+		"fp3": { "date": "2020-03-14", "time": "03:00:00Z" },
+		"fp2": { "date": "2020-03-13", "time": "05:00:00Z" },
+		"fp1": { "date": "2020-03-13", "time": "01:00:00Z" }
+	},
+	{
+		"_round": "2",
+		"name": "Bahrain Grand Prix",
+		"race": { "date": "2020-03-22", "time": "15:10:00Z" },
+		"quali": { "date": "2020-03-21", "time": "15:00:00Z" },
+		"fp3": { "date": "2020-03-21", "time": "12:00:00Z" },
+		"fp2": { "date": "2020-03-20", "time": "15:00:00Z" },
+		"fp1": { "date": "2020-03-20", "time": "11:00:00Z" }
+	},
+	{
+		"_round": "3",
+		"name": "Vietnamese Grand Prix",
+		"race": { "date": "2020-04-05", "time": "07:10:00Z" },
+		"quali": { "date": "2020-04-04", "time": "08:00:00Z" },
+		"fp3": { "date": "2020-04-04", "time": "05:00:00Z" },
+		"fp2": { "date": "2020-04-03", "time": "08:00:00Z" },
+		"fp1": { "date": "2020-04-03", "time": "04:00:00Z" }
+	},
+	{
+		"_round": "4",
+		"name": "Chinese Grand Prix",
+		"race": { "date": "2020-04-19", "time": "06:10:00Z" },
+		"quali": { "date": "2020-04-18", "time": "07:00:00Z" },
+		"fp3": { "date": "2020-04-18", "time": "04:00:00Z" },
+		"fp2": { "date": "2020-04-17", "time": "07:00:00Z" },
+		"fp1": { "date": "2020-04-17", "time": "03:00:00Z" }
+	},
+	{
+		"_round": "5",
+		"name": "Dutch Grand Prix",
+		"race": { "date": "2020-05-03", "time": "13:10:00Z" },
+		"quali": { "date": "2020-05-02", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-05-02", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-05-01", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-05-01", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "6",
+		"name": "Spanish Grand Prix",
+		"race": { "date": "2020-05-10", "time": "13:10:00Z" },
+		"quali": { "date": "2020-05-09", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-05-09", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-05-08", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-05-08", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "7",
+		"name": "Monaco Grand Prix",
+		"race": { "date": "2020-05-24", "time": "13:10:00Z" },
+		"quali": { "date": "2020-05-23", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-05-23", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-05-21", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-05-21", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "8",
+		"name": "Azerbaijan Grand Prix",
+		"race": { "date": "2020-06-07", "time": "12:10:00Z" },
+		"quali": { "date": "2020-06-06", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-06-06", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-06-05", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-06-05", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "9",
+		"name": "Canadian Grand Prix",
+		"race": { "date": "2020-06-14", "time": "18:10:00Z" },
+		"quali": { "date": "2020-06-13", "time": "18:00:00Z" },
+		"fp3": { "date": "2020-06-13", "time": "15:00:00Z" },
+		"fp2": { "date": "2020-06-12", "time": "19:00:00Z" },
+		"fp1": { "date": "2020-06-12", "time": "15:00:00Z" }
+	},
+	{
+		"_round": "10",
+		"name": "French Grand Prix",
+		"race": { "date": "2020-06-28", "time": "13:10:00Z" },
+		"quali": { "date": "2020-06-27", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-06-27", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-06-26", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-06-26", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "11",
+		"name": "Austrian Grand Prix",
+		"race": { "date": "2020-07-05", "time": "13:10:00Z" },
+		"quali": { "date": "2020-07-04", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-07-04", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-07-03", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-07-03", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "12",
+		"name": "British Grand Prix",
+		"race": { "date": "2020-07-19", "time": "14:10:00Z" },
+		"quali": { "date": "2020-07-18", "time": "14:00:00Z" },
+		"fp3": { "date": "2020-07-18", "time": "11:00:00Z" },
+		"fp2": { "date": "2020-07-17", "time": "14:00:00Z" },
+		"fp1": { "date": "2020-07-17", "time": "10:00:00Z" }
+	},
+	{
+		"_round": "13",
+		"name": "Hungarian Grand Prix",
+		"race": { "date": "2020-08-02", "time": "13:10:00Z" },
+		"quali": { "date": "2020-08-01", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-08-01", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-07-31", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-07-31", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "14",
+		"name": "Belgian Grand Prix",
+		"race": { "date": "2020-08-30", "time": "13:10:00Z" },
+		"quali": { "date": "2020-08-29", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-08-29", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-08-28", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-08-28", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "15",
+		"name": "Italian Grand Prix",
+		"race": { "date": "2020-09-06", "time": "13:10:00Z" },
+		"quali": { "date": "2020-09-05", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-09-05", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-09-04", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-09-04", "time": "09:00:00Z" }
+	},
+	{
+		"_round": "16",
+		"name": "Singapore Grand Prix",
+		"race": { "date": "2020-09-20", "time": "12:10:00Z" },
+		"quali": { "date": "2020-09-19", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-09-19", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-09-18", "time": "12:30:00Z" },
+		"fp1": { "date": "2020-09-18", "time": "08:30:00Z" }
+	},
+	{
+		"_round": "17",
+		"name": "Russian Grand Prix",
+		"race": { "date": "2020-09-27", "time": "11:10:00Z" },
+		"quali": { "date": "2020-09-26", "time": "12:00:00Z" },
+		"fp3": { "date": "2020-09-26", "time": "09:00:00Z" },
+		"fp2": { "date": "2020-09-25", "time": "12:00:00Z" },
+		"fp1": { "date": "2020-09-25", "time": "08:00:00Z" }
+	},
+	{
+		"_round": "18",
+		"name": "Japanese Grand Prix",
+		"race": { "date": "2020-10-10", "time": "05:10:00Z" },
+		"quali": { "date": "2020-10-09", "time": "06:00:00Z" },
+		"fp3": { "date": "2020-10-09", "time": "03:00:00Z" },
+		"fp2": { "date": "2020-10-08", "time": "05:00:00Z" },
+		"fp1": { "date": "2020-10-08", "time": "01:00:00Z" }
+	},
+	{
+		"_round": "19",
+		"name": "United States Grand Prix",
+		"race": { "date": "2020-10-25", "time": "19:10:00Z" },
+		"quali": { "date": "2020-10-24", "time": "21:00:00Z" },
+		"fp3": { "date": "2020-10-24", "time": "18:00:00Z" },
+		"fp2": { "date": "2020-10-23", "time": "20:00:00Z" },
+		"fp1": { "date": "2020-10-23", "time": "16:00:00Z" }
+	},
+	{
+		"_round": "20",
+		"name": "Mexico City Grand Prix",
+		"race": { "date": "2020-11-01", "time": "19:10:00Z" },
+		"quali": { "date": "2020-10-31", "time": "19:00:00Z" },
+		"fp3": { "date": "2020-10-31", "time": "16:00:00Z" },
+		"fp2": { "date": "2020-10-30", "time": "21:00:00Z" },
+		"fp1": { "date": "2020-10-30", "time": "17:00:00Z" }
+	},
+	{
+		"_round": "21",
+		"name": "Brazilian Grand Prix",
+		"race": { "date": "2020-11-15", "time": "17:10:00Z" },
+		"quali": { "date": "2020-11-14", "time": "18:00:00Z" },
+		"fp3": { "date": "2020-11-14", "time": "15:00:00Z" },
+		"fp2": { "date": "2020-11-13", "time": "18:00:00Z" },
+		"fp1": { "date": "2020-11-13", "time": "14:00:00Z" }
+	},
+	{
+		"_round": "22",
+		"name": "Abu Dhabi Grand Prix",
+		"race": { "date": "2020-11-29", "time": "13:10:00Z" },
+		"quali": { "date": "2020-11-28", "time": "13:00:00Z" },
+		"fp3": { "date": "2020-11-28", "time": "10:00:00Z" },
+		"fp2": { "date": "2020-11-27", "time": "13:00:00Z" },
+		"fp1": { "date": "2020-11-27", "time": "09:00:00Z" }
+	}
+]
